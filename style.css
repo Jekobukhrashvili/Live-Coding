@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contentdiv {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px;
+  max-width: 100%;
+  width: 1000px;
+  overflow: hidden;
+}
+
+#buttons {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  gap: 10px;
+}
