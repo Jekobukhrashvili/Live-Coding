@@ -188,14 +188,13 @@ items.forEach((items) => {
   root.append(card);
 });
 
-const contentDiv = document.getElementById("contentdiv");
 const rightBtn = document.querySelector("#buttons button:nth-child(1)");
 const leftBtn = document.querySelector("#buttons button:nth-child(2)");
 
 rightBtn.addEventListener("click", () => {
-  contentDiv.scrollLeft -= 300;
+  root.scrollLeft -= 300;
 });
 
 leftBtn.addEventListener("click", () => {
-  contentDiv.scrollLeft += 300;
+  root.scrollLeft += 300;
 });
