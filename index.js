@@ -125,9 +125,6 @@ const items = [
 ];
 
 const root = document.getElementById("contentdiv");
-// root.style.display = "flex";
-// root.style.textAlign = "center";
-// root.style.margin = "5px";
 
 function cards(items) {
   const cardDiv = document.createElement("div");
@@ -192,9 +189,9 @@ const rightBtn = document.querySelector("#buttons button:nth-child(1)");
 const leftBtn = document.querySelector("#buttons button:nth-child(2)");
 
 rightBtn.addEventListener("click", () => {
-  root.scrollLeft -= 300;
+  root.scrollLeft -= 980;
 });
 
 leftBtn.addEventListener("click", () => {
-  root.scrollLeft += 300;
+  root.scrollLeft += 980;
 });
